@@ -2,7 +2,7 @@
 
  body
  {
- 	background: #000;
+ 	background: #e5e5e5;
  }
 .header1 .main-menu .navbar .navbar-brand
 {
@@ -10,47 +10,54 @@
 	 
 }
 
-.navbar-toggler-icon
+.main-menu
 {
-    background: red;
+    background-color: #090b10;	
+
 }
 .header1 .main-menu .nav-item .nav-link
 {
-	 
 	font-family: 'Bowlby One SC',;
 	font-weight: 480;
 	color: #42413e;
-	padding: 1rem;
+	padding: 0.4rem;
+    margin-right: 50px;
 }
 .header1 .main-menu .navbar-nav a{
      font-family: 'Poppins', sans-serif;
 }
 .header1 .main-menu .navbar-nav .active a{
-	background:linear-gradient(red,#green);
+	background:linear-gradient(red,green);
 	-webkit-background-clip:text;
-	-webkit-text-fill-color:red;
+	-webkit-text-fill-color:#0093ff;
 	background-clip: text;
     font-family: 'Poppins', sans-serif;
 }
-
+ 
 .header1 .main-menu .navbar-nav   a:hover{
 	background:linear-gradient(red,#green);
 	-webkit-background-clip:text;
-	-webkit-text-fill-color:red;
+	-webkit-text-fill-color:#0093ff;
 	background-clip: text;
    
 }
-
+.site-banner
+{    
+    background-color: #090b10;
+}
  .title-text-uppercase
-{   margin-top: 10px;
+{   
     
+    
+    margin-top: 10px;
+    padding: 20px;
     font-family: 'Poppins', sans-serif;
  
-    color: #bebebe;
+    color: #cbcbcb;
 }
 
 .img-fluid
-{   margin-top: 50px;
+{   
     width: 100%;
      
     border-radius: 50%;
@@ -66,15 +73,19 @@
     border-radius: 4px;
 }
 
+.column
+{
+     
+}
 .button.primary-button:hover{
     background: #eaeaea;
     background-clip: padding-box;
-    color: black;
+    color: #000000;
 }
 .button.primary-button::after{
     position: absolute;
     top: -2px;left: -2px; right: -2px; bottom: -2px;
-    background: linear-gradient(red,rgba(141, 9, 40, 0.85));
+    background: linear-gradient(#0093ff,rgba(181, 181, 181, 0.85));
     content: '';
     z-index: -1;
     border-radius: 4px;
@@ -83,7 +94,7 @@
 .button.secondary-button:hover{
     background: #eaeaea;
     background-clip: padding-box;
-    color: black;
+    color: #000000;
 }
 .button.secondary-button::after{
     position: absolute;
@@ -94,3 +105,57 @@
     border-radius: 4px;
     
 }
+.navbar-toggler{
+    
+     
+    background: #fff;
+}
+
+/*education section*/
+
+ .services-area
+{   background: #090b10;
+    padding: 7rem 2rem;
+}
+ .services-title
+{
+    
+    background-color: #262626;
+    letter-spacing: 4px;
+    
+     
+}
+.services-title h1
+{
+   
+    color: #cbcbcb;
+    
+   
+     
+}
+ .services-area .services
+{
+     background-color: #262626;
+     border-radius: 1px;
+      
+    height: 500px;
+    
+    padding: 1rem 0;
+   margin-top: 30px;
+    transition:box-shadow .5s ease;
+     
+}
+.services-area .services:hover{
+    box-shadow: 0px 10px 30px #0093ff;
+     
+}
+.card-title 
+{
+    color:#cbcbcb;
+}
+
+
+/*_______________________*/
+
+
+
